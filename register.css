@@ -1,0 +1,67 @@
+.register{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #4070f4;
+}
+
+.register h2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.regis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    height: 100vh;
+    width: 100%;
+}
+
+.regis form{
+    background-color: #fff;
+    padding: 30px;
+    max-width: 400px;
+    margin-right: 550px;
+    width: 100%;
+    border-radius: 5px;
+}
+.regis form .form-link{
+    text-align: right;
+}
+.regis form .form-link .signupname{
+    padding-left: 5px;
+}
+button{
+    height: 40px;
+    width: 100%;
+    background-color: #4070f4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: aliceblue;
+}
+.line::before{
+    content: "Visit our main website here";
+    position: absolute;
+    top: 70%;
+    size: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}

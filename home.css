@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#q{
+   background-image: url(/images/wert.jpg);
+   background-size: cover;
+   width: 100%;
+   background-position: center;
+   height: 100vh;
+}
+
+#main{
+  background: none;
+  margin-right: 20px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.containerform{
+   display: block;  
+   justify-content: right;
+}
+
+.containerform h3{
+  text-align: center;
+  text-align: center;
+  color: azure;
+  padding-top: 200px;
+}
+
+#img{
+  margin-left: 170px;
+  height: 60px;
+  background-color: antiquewhite;
+}
+
+.containerform form .name{
+  display: flex;
+  width: 200%;
+}
+
+.containerform form button{
+  width: 200%;
+}
+
+#frt{
+  margin-left: 20px;
+  width: 200%;
+}
+#frts{
+  width: 200%;
+}
+
+.containerform form .number{
+  display: flex;
+  width: 200%;
+}
